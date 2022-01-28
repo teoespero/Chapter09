@@ -27,4 +27,7 @@ int main(){
 	cout << endl << "new values" << endl;
 	cout << "mynumber...." << mynumber << endl;
 	cout << "*mypointer....." << *mypointer << endl;
+
+	cout << endl << "the address of mynumber....." << &mynumber << endl;
+	cout << "the address of *mypointer....." << mypointer << endl;
 }
